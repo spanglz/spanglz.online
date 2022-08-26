@@ -7,7 +7,7 @@ let bestTitles = ['Дуплин', 'Дофлин', 'Дульпин', 'Дрофи�
 
 setInterval(function changeQuote() {
     quote.innerText = bestQuotes[Math.floor(Math.random() * bestQuotes.length)];
-}, 4000);
+}, 7000);
 
 setInterval(function changeTitle() {
     document.title = "Hello, " + bestTitles[Math.floor(Math.random() * bestTitles.length)] + "!";
