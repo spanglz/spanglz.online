@@ -5,6 +5,9 @@ let bestQuotes = ['#доплин', '#дрофиные', '#дульпин', '#д�
 
 let bestTitles = ['Дуплин', 'Дофлин', 'Дульпин', 'Дрофиные', 'Дохлый', 'Доплин']
 
+document.title = "Hello, " + bestTitles[Math.floor(Math.random() * bestTitles.length)] + "!";
+quote.innerText = bestQuotes[Math.floor(Math.random() * bestQuotes.length)];
+
 setInterval(function changeQuote() {
     quote.innerText = bestQuotes[Math.floor(Math.random() * bestQuotes.length)];
 }, 7000);
