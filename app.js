@@ -92,8 +92,9 @@ let bestTitles = [
 ];
 
 document.title =
-    "Hello, " + bestTitles[Math.floor(Math.random() * bestTitles.length)] + "!";
+    `Hello, ${bestTitles[Math.floor(Math.random() * bestTitles.length)]}!`;
 quote.innerText = bestQuotes[Math.floor(Math.random() * bestQuotes.length)];
+
 
 setInterval(function changeQuote() {
     quote.innerText = bestQuotes[Math.floor(Math.random() * bestQuotes.length)];
@@ -108,3 +109,6 @@ footer.innerText =
     "powered by @spanglz. we are already have " +
     bestQuotes.length.toString() +
     " dolphin employees and clients quotes";
+    
+
+
