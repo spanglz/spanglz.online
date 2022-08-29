@@ -102,13 +102,8 @@ setInterval(function changeQuote() {
 
 setInterval(function changeTitle() {
     document.title =
-        "Hello, " + bestTitles[Math.floor(Math.random() * bestTitles.length)] + "!";
+        `Hello, ${bestTitles[Math.floor(Math.random() * bestTitles.length)]}!`;
 }, 10000);
 
 footer.innerText =
-    "powered by @spanglz. we are already have " +
-    bestQuotes.length.toString() +
-    " dolphin employees and clients quotes";
-    
-
-
+    `powered by @spanglz. we are already have ${bestQuotes.length.toString()} dolphin employees and clients quotes`;
