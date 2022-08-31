@@ -80,6 +80,7 @@ let bestQuotes = [
     "#релиз в пятницу",
     "#выкатили 104 хром",
     "#i am from Brazil",
+    "#вуиндонс семёрка работает?"
 ];
 
 let bestTitles = [
